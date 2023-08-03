@@ -140,6 +140,9 @@ export const SubHeader = styled.section`
         align-items: center;
         margin-right: 0px;
     }
+    @media (max-width: ${breakpoints.mobileXl}){
+        align-items: flex-start;
+    }
 
 `
 
