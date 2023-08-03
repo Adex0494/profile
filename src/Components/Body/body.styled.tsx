@@ -91,10 +91,14 @@ export const StyledPhone = styled(PhoneIcon)`
 export const SubHeader = styled.section`
     margin-top: 32px;
     display: flex;
+    margin-right: 128px;
     gap: 32px;
-    width: 70%;
+    width: auto;
     padding-bottom: 24px;
     justify-content: space-between;
+    @media (max-width: 1100px){
+        margin-right: 0px;
+    }
 `
 
 export const IconTextContainer = styled.a`
