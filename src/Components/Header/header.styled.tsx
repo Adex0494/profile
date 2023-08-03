@@ -18,6 +18,7 @@ export const Container = styled.section`
 
 export const StyledDiv = styled.div`
     display: flex;
+    align-items: center;
     gap: 16px;
 `
 
